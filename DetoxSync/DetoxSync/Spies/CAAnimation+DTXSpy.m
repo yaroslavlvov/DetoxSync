@@ -52,19 +52,19 @@ static const void* _DTXCAAnimationIsTrackingKey = &_DTXCAAnimationIsTrackingKey;
 
 - (void)__detox_sync_trackAnimation
 {
-	[self __detox_sync_untrackAnimation];
-	
-	[DTXUISyncResource.sharedInstance trackCAAnimation:self];
-	[self __detox_sync_setTracking:YES];
+//	[self __detox_sync_untrackAnimation];
+//	
+//	[DTXUISyncResource.sharedInstance trackCAAnimation:self];
+//	[self __detox_sync_setTracking:YES];
 }
 
 - (void)__detox_sync_untrackAnimation
 {
-	if(self.__detox_sync_isTracking == YES)
-	{
-		[DTXUISyncResource.sharedInstance untrackCAAnimation:self];
-		[self __detox_sync_setTracking:NO];
-	}
+//	if(self.__detox_sync_isTracking == YES)
+//	{
+//		[DTXUISyncResource.sharedInstance untrackCAAnimation:self];
+//		[self __detox_sync_setTracking:NO];
+//	}
 }
 
 + (void)load
